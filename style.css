@@ -52,8 +52,25 @@
 	align-content: space-around;
 	align-content: space-evenly;
 	align-content: center;
-}
 
+	/* alignment grid item content */
+	/* justify-items: center;
+	justify-items: start;
+	justify-items: end;
+
+	align-items: center;
+	align-items: start;
+	align-items: end; */
+}
+.seven {
+	justify-self: center;
+	justify-self: end;
+	justify-self: start;
+
+	align-self: center;
+	align-self: end;
+	align-self: start;
+}
 /* .header {
 	grid-area: h;
 }
