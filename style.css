@@ -8,10 +8,11 @@ body {
 	display: grid;
 	background-color: beige;
 	grid-template-columns: 1fr 4fr;
-	grid-template-rows: 60px auto 60px;
+	grid-template-rows: 60px 60px 1fr 60px;
 	grid-gap: 20px;
 	grid-template-areas:
 		"header header"
+		"nav nav"
 		"aside main"
 		"footer footer";
 }
@@ -19,19 +20,24 @@ header {
 	grid-area: header;
 	background-color: #02bfb1;
 }
-
+nav {
+	grid-area: nav;
+	background-color: #33c361;
+}
 aside {
 	grid-area: aside;
 	background-color: #6edb6e;
 }
 main {
 	grid-area: main;
-	background-color: #fbb04c;
 	display: grid;
 	grid-gap: 20px;
 }
 article {
 	background-color: #fcd24a;
+}
+section {
+	background-color: #0f98c6;
 }
 footer {
 	grid-area: footer;
@@ -40,9 +46,11 @@ footer {
 
 @media (max-width: 768px) {
 	.container {
-		grid-template-rows: 60px 6fr 1fr 60px;
+		grid-template-rows: 60px 60px 4fr 1fr 60px;
+		grid-gap: 10px;
 		grid-template-areas:
 			"header header"
+			"nav nav"
 			"main main"
 			"aside aside"
 			"footer footer";
