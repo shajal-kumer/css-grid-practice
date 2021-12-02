@@ -125,3 +125,13 @@ _Note:_ To see the project code check the different branch
 
 -   Desktop mode ![(website-layout-three-desktop.png](website-layout-three-desktop.png)
 -   Mobile mode ![website-layout-three-mobile.png](website-layout-three-mobile.png)
+
+## 🚀 About Me
+
+I'm a front-end developer with backend knowledge.
+
+## 🛠 Skills
+
+**Front-end** : Javascript, React, Next.js, HTML, CSS, Bootstrap, Tailwind, SASS, SVG, GSAP
+
+**Aditional Backend** : Node.js, Express.js, MongoDB, MySQL
